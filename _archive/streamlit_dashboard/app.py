@@ -11,7 +11,7 @@ st.set_page_config(page_title="Predictive Maintenance - RUL Predictor",
                    layout="wide")
 
 # Title
-st.title("🔧 Predictive Maintenance Dashboard")
+st.title("Predictive Maintenance Dashboard")
 st.subheader("Remaining Useful Life (RUL) Prediction for Aircraft Engines")
 st.markdown("Built using NASA CMAPSS Turbofan Engine Dataset")
 
@@ -100,4 +100,4 @@ col4.metric("RMSE", f"{rmse:.1f} cycles")
 col5.metric("Engines Analyzed", "100")
 
 st.markdown("---")
-st.markdown("Built by Smrity | AI & Data Science Masters | Mechanical Engineering Background")
+st.markdown("Built by Smrity | AI & Data Science Masters | Mechanical Engineering")
